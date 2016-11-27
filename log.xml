@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration>
+ <log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+
+  <appender name="Default" class="org.apache.log4j.rolling.RollingFileAppender">
+    <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+      <param name="FileNamePattern" value="/tmp/md_%d{yyyy-MM}.gz"/>
+    </rollingPolicy>
+    <layout class="org.apache.log4j.PatternLayout">
+      <param name="ConversionPattern" value="%d{dd MMM yyyy HH:mm:ss} %c{1} - %m%n"/>
+    </layout>
+  </appender>
+
+  <root>
+    <priority value="all" />
+    <appender-ref ref="Default"/>
+  </root>
+
+ </log4j:configuration>

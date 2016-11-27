@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<IOKO>
+
+   <camera>
+      <index>0</index>
+      <x_low>1</x_low>
+      <x_high>815</x_high>
+      <y_low>180</y_low>
+      <y_high>540</y_high>
+      <sampling>8</sampling>
+      <threshold>5</threshold>
+   </camera>
+
+   <camera>
+      <index>1</index>
+      <x_low>1</x_low>
+      <x_high>710</x_high>
+      <y_low>1</y_low>
+      <y_high>570</y_high>
+      <sampling>8</sampling>
+      <threshold>5</threshold>
+   </camera>
+
+   <camera>
+      <index>2</index>
+      <x_low>1</x_low>
+      <x_high>560</x_high>
+      <y_low>1</y_low>
+      <y_high>560</y_high>
+      <sampling>8</sampling>
+      <threshold>15</threshold>
+   </camera>
+
+   <camera>
+      <index>3</index>
+      <x_low>1</x_low>
+      <x_high>700</x_high>
+      <y_low>1</y_low>
+      <y_high>570</y_high>
+      <sampling>8</sampling>
+      <threshold>15</threshold>
+   </camera>
+
+   <camera>
+      <index>4</index>
+      <x_low>1</x_low>
+      <x_high>1280</x_high>
+      <y_low>1</y_low>
+      <y_high>729</y_high>
+      <sampling>8</sampling>
+      <threshold>9</threshold>
+   </camera>
+
+   <camera>
+      <index>5</index>
+      <x_low>220</x_low>
+      <x_high>420</x_high>
+      <y_low>180</y_low>
+      <y_high>300</y_high>
+      <sampling>8</sampling>
+      <threshold>5</threshold>
+   </camera>
+
+   <camera>
+      <index>6</index>
+      <x_low>1</x_low>
+      <x_high>720</x_high>
+      <y_low>1</y_low>
+      <y_high>576</y_high>
+      <sampling>8</sampling>
+      <threshold>5</threshold>
+   </camera>
+
+   <camera>
+      <index>7</index>
+      <x_low>1</x_low>
+      <x_high>480</x_high>
+      <y_low>1</y_low>
+      <y_high>560</y_high>
+      <sampling>8</sampling>
+      <threshold>12</threshold>
+   </camera>
+
+</IOKO>
+
